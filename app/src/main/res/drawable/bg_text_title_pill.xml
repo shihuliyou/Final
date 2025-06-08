@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <!-- 从半透明白到半透明淡灰的水平渐变 -->
+    <gradient
+        android:startColor="#80FFFFFF"
+        android:endColor="#40EEEEEE"
+        android:angle="0"/>
+    <corners android:radius="12dp"/>
+</shape>

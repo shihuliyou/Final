@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="2dp"
+    app:strokeWidth="1dp"
+    app:strokeColor="@color/teal_700"
+    app:cardBackgroundColor="@color/ivory_lighter"
+    android:foreground="?attr/selectableItemBackground">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 股票代码 -->
+        <TextView
+            android:id="@+id/tvHoldingCode"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="000001"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <!-- 持有数量 -->
+        <TextView
+            android:id="@+id/tvHoldingQty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="100股"
+            android:layout_marginStart="16dp"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+
+        <!-- 平均成本价 -->
+        <TextView
+            android:id="@+id/tvHoldingAvgPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="¥12.34"
+            android:textColor="@color/black"
+            android:textSize="14sp"/>
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

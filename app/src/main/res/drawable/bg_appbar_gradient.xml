@@ -1,0 +1,8 @@
+<!-- res/drawable/bg_appbar_gradient.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <gradient
+        android:angle="270"
+        android:startColor="#005B96"
+        android:endColor="#008DD5"
+        android:type="linear"/>
+</shape>

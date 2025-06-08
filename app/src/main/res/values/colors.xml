@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 基础色 -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- 主色 -->
+    <color name="primary">#1E88E5</color>
+    <color name="primary_blue">#1E88E5</color>
+    <color name="primary_blue_variant">#1565C0</color>
+    <color name="on_primary">#FFFFFFFF</color>
+
+    <!-- 次级色 -->
+    <color name="secondary_teal">#009688</color>
+    <color name="on_secondary">#FFFFFFFF</color>
+
+    <!-- 背景色 -->
+    <color name="background_light">#FFFFFF</color>
+    <color name="on_background_light">#212121</color>
+
+    <!-- Surface / 卡片背景色 -->
+    <color name="surface_light">#FFFFFF</color>
+    <color name="on_surface_light">#212121</color>
+
+    <!-- 灰阶色 -->
+    <color name="gray_light">#EEEEEE</color>
+    <color name="gray_medium">#BDBDBD</color>
+    <color name="gray_dark">#757575</color>
+
+    <!-- 通用灰（可对应该深度）-->
+    <color name="gray">#757575</color>
+    <!-- 列表边框、卡片描边等浅灰 -->
+    <color name="light_gray">#EEEEEE</color>
+
+    <!-- 错误色 -->
+    <color name="error_red">#B00020</color>
+    <color name="on_error">#FFFFFF</color>
+
+    <!-- 品牌金色，用于高端分割线等 -->
+    <color name="gold">#FFD700</color>
+
+    <!-- 头部渐变色 -->
+    <color name="header_gradient_start">#1565C0</color>
+    <color name="header_gradient_end">#1E88E5</color>
+
+    <!-- 象牙及相关 -->
+    <color name="ivory">#F9F6F0</color>
+    <color name="ivory_light">#FFFBF5</color>
+    <color name="ivory_lighter">#FFFEFD</color>
+    <color name="ivory_dark">#F2E9D8</color>
+
+    <!-- 紫系 -->
+    <color name="dark_plum">#2C2A3D</color>
+    <color name="soft_violet">#4A3F55</color>
+    <color name="deep_purple">#673AB7</color>
+    <color name="lavender">#E6E6FA</color>
+
+    <!-- 粉系 -->
+    <color name="rose_gold">#B76E79</color>
+    <color name="blush_pink">#FFD1DC</color>
+    <color name="soft_peach">#FFDAB9</color>
+
+    <!-- 蓝系 -->
+    <color name="charcoal">#333333</color>
+    <color name="slate_gray">#666666</color>
+    <color name="deep_sky_blue">#00BFFF</color>
+    <color name="royal_blue">#4169E1</color>
+    <color name="indigo">#4B0082</color>
+    <color name="midnight_blue">#191970</color>
+    <color name="colorAccent">#FF4081</color>
+    <!-- Material Teal -->
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+</resources>

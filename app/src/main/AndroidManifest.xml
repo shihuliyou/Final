@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.afinal">
+
+    <!-- 网络权限 -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_app_logo"
+        android:label="stock"
+        android:roundIcon="@drawable/ic_app_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="23">
+
+        <!-- 启动页：LoginActivity -->
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- 注册页 -->
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+
+        <!-- 主页面：自选股列表 -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+
+        <!-- 搜索页面 -->
+        <activity
+            android:name=".SearchActivity"
+            android:exported="false" />
+
+        <!-- 详情页面 -->
+        <activity
+            android:name=".StockDetailActivity"
+            android:exported="false" />
+
+        <activity android:name=".HomeActivity"
+            android:exported="false" />
+
+        <activity android:name=".HoldingActivity"
+            android:exported="false" />
+
+
+
+    </application>
+</manifest>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- 深紫→柔紫 渐变 -->
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:startColor="@color/dark_plum"
+                android:endColor="@color/soft_violet"
+                android:angle="270"/>
+        </shape>
+    </item>
+
+    <!-- 斜线纹理叠加 -->
+    <item>
+        <bitmap
+            android:src="@drawable/header_overlay_pattern"
+            android:tileMode="repeat"
+            android:gravity="fill"
+            android:alpha="32"/>
+    </item>
+</layer-list>
